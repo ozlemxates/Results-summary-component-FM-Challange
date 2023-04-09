@@ -203,8 +203,9 @@ button {
 
 @media (max-width: 770px) {
     .container { 
-        display: flex;
-        justify-items: center;
+        display: grid;
+        justify-content: center;
+        margin: 0;
         flex-direction: column;
         padding: 0;
         overflow:visible;  
